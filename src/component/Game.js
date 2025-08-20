@@ -1,7 +1,9 @@
 import { useState, useEffect } from "react";
+
 import getWinner from "../function/get_winner";
 import botMove from "../function/bot_move";
 import "../style/tictactoe.css";
+
 import Board from "./Board";
 
 export default function TicTacToeGame (props) {
